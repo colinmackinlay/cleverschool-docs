@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mint Starter Kit",
+  "theme": "willow",
+  "name": "RET Systems",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
@@ -14,18 +14,10 @@
         "tab": "Guides",
         "groups": [
           {
-            "group": "Getting started now",
+            "group": "Getting started",
             "pages": [
               "index",
-              "quickstart",
               "development"
-            ]
-          },
-          {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
             ]
           },
           {
@@ -36,33 +28,16 @@
               "essentials/images",
               "essentials/reusable-snippets"
             ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
           }
         ]
       },
       {
-        "tab": "API reference",
+        "tab": "Modules",
         "groups": [
           {
             "group": "API documentation",
             "pages": [
               "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
             ]
           }
         ]
@@ -84,8 +59,8 @@
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/favicon.svg",
+    "dark": "/favicon.svg"
   },
   "navbar": {
     "links": [
@@ -96,8 +71,8 @@
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Login",
+      "href": "https://ret.systems"
     }
   },
   "footer": {
