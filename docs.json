@@ -3,30 +3,45 @@
   "theme": "willow",
   "name": "RET Systems",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#0092b8",
+    "light": "#005f78",
+    "dark": "#00d3f2"
   },
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Overview",
         "groups": [
           {
             "group": "Getting started",
             "pages": [
-              "index",
-              "development"
+              "index"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "Modules",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
+              "ai/introduction",
+              "riskassessment/introduction",
+              "calendar/introduction",
+              "development/introduction",
+              "performance/introduction",
+              "standards/introduction",
+              "safety/introduction",
+              "safeguarding/introduction",
+              "compliance/introduction",
+              "site/introduction",
+              "risk/introduction",
+              "documents/introduction",
+              "curriculum/introduction",
+              "website/introduction",
+              "application/introduction",
+              "enrolment/introduction",
+              "sef-ofsted/introduction",
+              "sef-siams/introduction",
+              "sef-catholic/introduction",
+              "sef-orthodox/introduction"
             ]
           }
         ]
@@ -35,9 +50,34 @@
         "tab": "Modules",
         "groups": [
           {
-            "group": "API documentation",
+            "group": "Introduction",
             "pages": [
-              "api-reference/introduction"
+              "modules/introduction",
+              "ai/introduction",
+              "riskassessment/introduction",
+              "calendar/introduction",
+              "development/introduction",
+              "performance/introduction",
+              "standards/introduction",
+              "safety/introduction",
+              "safeguarding/introduction",
+              "compliance/introduction",
+              "site/introduction",
+              "documents/introduction",
+              "curriculum/introduction",
+              "website/introduction",
+              "application/introduction",
+              "enrolment/introduction",
+              "sef_ofsted/introduction",
+              "sef_siams/introduction",
+              "sef_catholic/introduction",
+              "sef_orthodox/introduction"
+            ]
+          },
+          {
+            "group": "AI",
+            "pages": [
+              "ai/introduction"
             ]
           }
         ]
@@ -77,8 +117,8 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/cleverschoolsys",
+      "linkedin": "https://linkedin.com/company/cleverschool-systems"
     }
   }
 }
