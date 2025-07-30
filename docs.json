@@ -16,13 +16,44 @@
           {
             "group": "Getting started",
             "pages": [
-              "index"
+              "index",
+              "initial-setup"
             ]
           },
           {
             "group": "Modules",
             "pages": [
-              "ai/introduction",
+              "riskassessment",
+              "calendar",
+              "development",
+              "performance",
+              "standards",
+              "safety",
+              "safeguarding",
+              "compliance",
+              "site",
+              "risk",
+              "documents",
+              "curriculum",
+              "website",
+              "application",
+              "enrolment",
+              "sef-ofsted",
+              "sef-siams",
+              "sef-catholic",
+              "sef-orthodox",
+              "ai"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Modules",
+        "groups": [
+          {
+            "group": "Introduction",
+            "pages": [
+              "modules/introduction",
               "riskassessment/introduction",
               "calendar/introduction",
               "development/introduction",
@@ -41,37 +72,8 @@
               "sef-ofsted/introduction",
               "sef-siams/introduction",
               "sef-catholic/introduction",
-              "sef-orthodox/introduction"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Modules",
-        "groups": [
-          {
-            "group": "Introduction",
-            "pages": [
-              "modules/introduction",
-              "ai/introduction",
-              "riskassessment/introduction",
-              "calendar/introduction",
-              "development/introduction",
-              "performance/introduction",
-              "standards/introduction",
-              "safety/introduction",
-              "safeguarding/introduction",
-              "compliance/introduction",
-              "site/introduction",
-              "documents/introduction",
-              "curriculum/introduction",
-              "website/introduction",
-              "application/introduction",
-              "enrolment/introduction",
-              "sef_ofsted/introduction",
-              "sef_siams/introduction",
-              "sef_catholic/introduction",
-              "sef_orthodox/introduction"
+              "sef-orthodox/introduction",
+              "ai/introduction"
             ]
           },
           {
