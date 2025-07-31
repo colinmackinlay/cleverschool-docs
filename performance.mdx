@@ -4,29 +4,9 @@ description: ""
 icon: "hand-holding-seedling"
 ---
 
-<Columns cols={3}>
-    <Card
-        title="Introduction"
-        icon="book"
-        href="/performance/introduction"
-    >
-        Introduction to the Risk Assessment module.
-    </Card>
-    <Card
-        title="Getting Started"
-        icon="screwdriver-wrench"
-        href="/performance/getting-started"
-    >
-        Setting up and managing the Risk Assessment module.
-    </Card>
-    <Card
-        title="Tutorials"
-        icon="person-chalkboard"
-        href="/performance/tutorials"
-    >
-        Short video tutorials
-    </Card>
-</Columns>
+import {ModuleCards} from '/snippets/module-cards.jsx';
+
+<ModuleCards module="Professional Development" folder="performance" />
 
 ## Overview
 

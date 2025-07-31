@@ -4,29 +4,9 @@ description: ""
 icon: "books"
 ---
 
-<Columns cols={3}>
-    <Card
-        title="Introduction"
-        icon="book"
-        href="/documents/introduction"
-    >
-        Introduction to the Risk Assessment module.
-    </Card>
-    <Card
-        title="Getting Started"
-        icon="screwdriver-wrench"
-        href="/documents/getting-started"
-    >
-        Setting up and managing the Risk Assessment module.
-    </Card>
-    <Card
-        title="Tutorials"
-        icon="person-chalkboard"
-        href="/documents/tutorials"
-    >
-        Short video tutorials
-    </Card>
-</Columns>
+import {ModuleCards} from '/snippets/module-cards.jsx';
+
+<ModuleCards module="Documents" folder="documents" />
 
 ## Overview
 

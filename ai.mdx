@@ -4,29 +4,9 @@ description: "Experimental AI tools"
 icon: "comments"
 ---
 
-<Columns cols={3}>
-    <Card
-        title="Introduction"
-        icon="book"
-        href="/ai/introduction"
-    >
-        Introduction to the Risk Assessment module.
-    </Card>
-    <Card
-        title="Getting Started"
-        icon="screwdriver-wrench"
-        href="/ai/getting-started"
-    >
-        Setting up and managing the Risk Assessment module.
-    </Card>
-    <Card
-        title="Tutorials"
-        icon="person-chalkboard"
-        href="/ai/tutorials"
-    >
-        Short video tutorials
-    </Card>
-</Columns>
+import {ModuleCards} from '/snippets/module-cards.jsx';
+
+<ModuleCards module="AI Tools" folder="ai" />
 
 ## AI Tools
 The AI tools we have are under development. They are intended for demonstrating AI to school staff without some of the complexities of account creation they might need for commercial applications.

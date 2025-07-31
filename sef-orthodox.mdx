@@ -4,29 +4,9 @@ description: ""
 icon: "cross"
 ---
 
-<Columns cols={3}>
-    <Card
-        title="Introduction"
-        icon="book"
-        href="/sef-orthodx/introduction"
-    >
-        Introduction to the Risk Assessment module.
-    </Card>
-    <Card
-        title="Getting Started"
-        icon="screwdriver-wrench"
-        href="/sef-orthodx/getting-started"
-    >
-        Setting up and managing the Risk Assessment module.
-    </Card>
-    <Card
-        title="Tutorials"
-        icon="person-chalkboard"
-        href="/sef-orthodx/tutorials"
-    >
-        Short video tutorials
-    </Card>
-</Columns>
+import {ModuleCards} from '/snippets/module-cards.jsx';
+
+<ModuleCards module="Orthodox Self Evaluation" folder="sef-orthodox" />
 
 ## Overview
 
