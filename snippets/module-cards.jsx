@@ -1,7 +1,7 @@
 export const ModuleCards = ({module, folder}) => {
 
     return (
-        <Columns cols={3}>
+        <Columns cols={2}>
             <Card
                 title="Introduction"
                 icon="book"
@@ -16,13 +16,13 @@ export const ModuleCards = ({module, folder}) => {
             >
                 Setting up and managing the {module} module.
             </Card>
-            <Card
-                title="Tutorials"
-                icon="person-chalkboard"
-                href={"/" + folder + "/tutorials"}
-            >
-                Short video tutorials
-            </Card>
+            {/*<Card*/}
+            {/*    title="Tutorials"*/}
+            {/*    icon="person-chalkboard"*/}
+            {/*    href={"/" + folder + "/tutorials"}*/}
+            {/*>*/}
+            {/*    Short video tutorials*/}
+            {/*</Card>*/}
         </Columns>
     )
 }
