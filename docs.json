@@ -53,7 +53,6 @@
           {
             "group": "Introduction",
             "pages": [
-              "modules/introduction",
               "riskassessment/introduction",
               "calendar/introduction",
               "development/introduction",
@@ -73,12 +72,6 @@
               "sef-siams/introduction",
               "sef-catholic/introduction",
               "sef-orthodox/introduction",
-              "ai/introduction"
-            ]
-          },
-          {
-            "group": "AI",
-            "pages": [
               "ai/introduction"
             ]
           }

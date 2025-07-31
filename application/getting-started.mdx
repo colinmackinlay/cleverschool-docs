@@ -1,9 +1,25 @@
 ---
 title: "Applications"
 description: "Getting Started"
-"
 icon: "paper-plane"
 ---
 
-## Overview
+## Setup
 
+1. An `Administrator` must enable the `Compliance Audit` Module in the Administration section of the system.
+2. An `Administrator` should then assign the role of `Compliance Manager` to one or more users of the system.
+ - Until at least one `Compliance Manager` is assigned, `Administrators` will receive weekly alerts that this task has not been completed.
+3. An `Administrator` or `Compliance Manager` can assign the role of `Compliance Owner` to other members of staff. Doing so means that they can then be assigned ownership of individual `Compliance Areas` and `Compliance Items`.
+4. The system will be setup initially with a default list of `Compliance Areas` and `Compliance Items`.
+ - These are all initially owned by the main system `Administrator`.
+ - These should be reviewed by `Compliance Managers` and assigned to appropriate `Compliance Owners`.
+ - If any don't apply to your school a `Compliance Manager` can disable individual items.
+ - `Compliance Managers` can delete `Compliance Items` or alternatively archive complete `Compliance Areas` along with their associated `Compliance Items`.
+ - Disabling and then archiving is the recommended approach for unused `Compliance Areas` and `Compliance Items` since that is reversible.
+ - NOTE - in the current release, default areas and items that are deleted will be restored from time to time so disabling or archiving is a better approach.
+ - `Compliance Managers` receive weekly notifications about disabled `Compliance Items`.
+5. `Compliance Managers` can add new `Compliance Areas` and associated `Compliance Items`.
+ - These can be disabled, archived and also deleted (although they won't ever be automatically restored after deletion) but otherwise are identical to the system provided ones.
+6. `Compliance Areas` and `Compliance Items` can be re-ordered in the system by `Compliance Managers`. The new order is applied for all users.
+7. `Compliance Areas` and `Compliance Items` review dates will initially all be empty. Once approved, it is recommended that the review dates are updated to fit with the school's Health and Compliance review cycle.
+8. Where groups of schools choose to coordinate in the system there is additional functionality to ensure consistency of `Compliance Areas` and `Compliance Items` and also functionality so that a single central `Compliance Owner` can be responsible for the same `Compliance Item` in each school.
