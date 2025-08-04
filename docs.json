@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "willow",
-  "name": "RET Systems",
+  "name": "Clever School Systems",
   "colors": {
     "primary": "#0092b8",
     "light": "#005f78",
@@ -93,7 +93,7 @@
     "primary": {
       "type": "button",
       "label": "Login",
-      "href": "https://ret.systems"
+      "href": "https://cleverschool.systems"
     }
   },
   "footer": {
