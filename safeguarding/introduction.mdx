@@ -1,6 +1,5 @@
 ---
 title: "Safeguarding Audit"
-description: "Introduction"
 icon: "users"
 iconType: "duotone"
 ---
@@ -13,3 +12,51 @@ import UnderConstruction from '/snippets/construction.mdx';
 
 <UnderConstruction/>
 
+## Introduction
+
+This module enables schools to keep track of key safeguarding checks and actions.
+
+-   Checks are organised as separate items within common areas that can be updated individually.
+-   Updates can be to either confirm the checks are complete, to update the due date of the check or to record information relevant to the check.
+-   Review dates are colour coded according to whether they are overdue, due within four weeks, or further ahead.
+![image](/img/docs/safeguarding/overview.png)
+
+Areas are updated by `Safeguarding Owners` who by default are also assigned to each of the `Safeguarding Items` in the `Safeguarding Area`.
+
+-   The owner of an area can, however, assign individual `Safeguarding Items` to someone else provided they are a user of the system and that they have also been assigned the role of `Safeguarding Owner` (or `Safeguarding Manager`).
+
+Users who have the role of `Safeguarding Manager` can assign the role of `Safeguarding Owner` to any other user of the system and can also assign ownership of all `Safeguarding Areas` and `Safeguarding Items`.
+
+-   `Safeguarding Managers` must be assigned by an `Administrator`.
+
+There is also a role of `Safeguarding Viewer` that can be assigned to any user of the system. These users can see the status of any `Safeguarding Area` or `Safeguarding Item` but cannot update them.
+
+-   Any user who can view the Safeguarding Audit can also print out individual or multiple areas.
+-   Users with access to the Safeguarding Audit will have a panel visible on their Dashboard that summarises the status of all the safeguarding items in the Audit.
+-   For `Safeguarding Owners` and `Safeguarding Managers` this panel also indicates the status of the `Safeguarding Items` that they "own".
+
+![image](/img/docs/safeguarding/dashboard.png)
+
+## Operation
+
+All `Safeguarding Areas` and `Safeguarding Items` are initially marked as incomplete.
+
+-   The `Safeguarding Owner` assigned to each will receive an email once a week to remind them of `Safeguarding Areas` and `Safeguarding Items` that are `Unapproved`, `Not OK` or `Overdue`.
+-   They will also be reminded if these are `Due for review` within the next four weeks.
+
+The main `Safeguarding Audit` page, accessed from the `Dashboard` lists all the `Safeguarding Areas` with their `Owners` and a progress indicator showing the status of the `Safeguarding Items` in that `Safeguarding Area`.
+At the top of the page there is a button to access a list of all `Safeguarding Items`, another one to `Print` a report of the status of all `Areas and Items` and, for managers, access to the Admin/Setup pages.
+![image](/img/docs/safeguarding/audit_top.png)
+
+`Safeguarding Items` can be reviewed and updated either from here or from their parent `Safeguarding Area` page.
+![image](/img/docs/safeguarding/area_items.png)
+When marking a `Safeguarding Item` as `OK` the `Review Date` will be updated to be one year on from the date of confirmation.
+
+-   If, however, the `Safeguarding Item` is `Due for review` within the next 4 weeks the date is updated to be one year from the current review date.
+The intention of this is that reviews can take place in a timely way before they are due but the review date does not creep earlier and earlier each year.
+-   The review date can also be updated independently if it is necessary to change the annual review cycle or to check a `Safeguarding Item` more often.
+
+The name of the `Safeguarding Owner` of each `Safeguarding Area` and `Safeguarding Item` is displayed next to it as a "mailto" hyperlink to facilitate quick communication if any queries arise.
+
+In a coordinated group of schools (e.g. a MAT), some `Safeguarding Items` can only be updated by the central `Safeguarding Owner`.
+They still have locally set `Safeguarding Owners` who will receive reminders about them so that they can be involved in the coordinated update of them.

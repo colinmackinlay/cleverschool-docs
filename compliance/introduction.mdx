@@ -1,6 +1,5 @@
 ---
 title: "Compliance"
-description: "Introduction"
 icon: "shield-check"
 iconType: "duotone"
 ---
@@ -12,4 +11,53 @@ import ModuleIntroCards from '/snippets/module-intro-cards.mdx';
 import UnderConstruction from '/snippets/construction.mdx';
 
 <UnderConstruction/>
+
+## Introduction
+
+This module enables schools to keep track of key Compliance checks and actions.
+
+-   Checks are organised as separate items within common areas that can be updated individually.
+-   Updates can be to either confirm the checks are complete, to update the due date of the check or to record information relevant to the check.
+-   Review dates are colour coded according to whether they are overdue, due within four weeks, or further ahead.
+![image](/img/docs/Compliance/overview.png)
+
+Areas are updated by `Compliance Owners` who by default are also assigned to each of the `Compliance Items` in the `Compliance Area`.
+
+-   The owner of an area can, however, assign individual `Compliance Items` to someone else provided they are a user of the system and that they have also been assigned the role of `Compliance Owner` (or `Compliance Manager`).
+
+Users who have the role of `Compliance Manager` can assign the role of `Compliance Owner` to any other user of the system and can also assign ownership of all `Compliance Areas` and `Compliance Items`.
+
+-   `Compliance Managers` must be assigned by an `Administrator`.
+
+There is also a role of `Compliance Viewer` that can be assigned to any user of the system. These users can see the status of any `Compliance Area` or `Compliance Item` but cannot update them.
+
+-   Any user who can view the Compliance Audit can also print out individual or multiple areas.
+-   Users with access to the Compliance Audit will have a panel visible on their Dashboard that summarises the status of all the Compliance items in the Audit.
+-   For `Compliance Owners` and `Compliance Managers` this panel also indicates the status of the `Compliance Items` that they "own".
+
+![image](/img/docs/Compliance/dashboard.png)
+
+## Operation
+
+All `Compliance Areas` and `Compliance Items` are initially marked as incomplete.
+
+-   The `Compliance Owner` assigned to each will receive an email once a week to remind them of `Compliance Areas` and `Compliance Items` that are `Unapproved`, `Not OK` or `Overdue`.
+-   They will also be reminded if these are `Due for review` within the next four weeks.
+
+The main `Compliance Audit` page, accessed from the `Dashboard` lists all the `Compliance Areas` with their `Owners` and a progress indicator showing the status of the `Compliance Items` in that `Compliance Area`.
+At the top of the page there is a button to access a list of all `Compliance Items`, another one to `Print` a report of the status of all `Areas and Items` and, for managers, access to the Admin/Setup pages.
+![image](/img/docs/Compliance/audit_top.png)
+
+`Compliance Items` can be reviewed and updated either from here or from their parent `Compliance Area` page.
+![image](/img/docs/Compliance/area_items.png)
+When marking a `Compliance Item` as `OK` the `Review Date` will be updated to be one year on from the date of confirmation.
+
+-   If, however, the `Compliance Item` is `Due for review` within the next 4 weeks the date is updated to be one year from the current review date.
+The intention of this is that reviews can take place in a timely way before they are due but the review date does not creep earlier and earlier each year.
+-   The review date can also be updated independently if it is necessary to change the annual review cycle or to check a `Compliance Item` more often.
+
+The name of the `Compliance Owner` of each `Compliance Area` and `Compliance Item` is displayed next to it as a "mailto" hyperlink to facilitate quick communication if any queries arise.
+
+In a coordinated group of schools (e.g. a MAT), some `Compliance Items` can only be updated by the central `Compliance Owner`.
+They still have locally set `Compliance Owners` who will receive reminders about them so that they can be involved in the coordinated update of them.
 

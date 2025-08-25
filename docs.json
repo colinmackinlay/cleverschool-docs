@@ -21,7 +21,7 @@
             ]
           },
           {
-            "group": "Modules",
+            "group": "Overview",
             "pages": [
               "riskassessment/overview",
               "calendar/overview",
@@ -48,7 +48,7 @@
         ]
       },
       {
-        "tab": "Modules",
+        "tab": "Introduction",
         "groups": [
           {
             "group": "Introduction",
