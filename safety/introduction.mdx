@@ -1,6 +1,6 @@
 ---
 title: "Safety Audit"
-description: "Introduction"
+description: "Annual review of key safety activities"
 icon: "user-helmet-safety"
 iconType: "duotone"
 ---
@@ -12,3 +12,52 @@ import ModuleIntroCards from '/snippets/module-intro-cards.mdx';
 import UnderConstruction from '/snippets/construction.mdx';
 
 <UnderConstruction/>
+
+## Introduction
+
+This module enables schools to keep track of key safety checks and actions.
+
+-   Checks are organised as separate items within common areas that can be updated individually.
+-   Updates can be to either confirm the checks are complete, to update the due date of the check or to record information relevant to the check.
+-   Review dates are colour coded according to whether they are overdue, due within four weeks, or further ahead.
+![image](/img/docs/safety/overview.png)
+
+Areas are updated by `Safety Owners` who by default are also assigned to each of the `Safety Items` in the `Safety Area`.
+
+-   The owner of an area can, however, assign individual `Safety Items` to someone else provided they are a user of the system and that they have also been assigned the role of `Safety Owner` (or `Safety Manager`).
+
+Users who have the role of `Safety Manager` can assign the role of `Safety Owner` to any other user of the system and can also assign ownership of all `Safety Areas` and `Safety Items`.
+
+-   `Safety Managers` must be assigned by an `Administrator`.
+
+There is also a role of `Safety Viewer` that can be assigned to any user of the system. These users can see the status of any `Safety Area` or `Safety Item` but cannot update them.
+
+-   Any user who can view the Safety Audit can also print out individual or multiple areas.
+-   Users with access to the Safety Audit will have a panel visible on their Dashboard that summarises the status of all the safety items in the Audit.
+-   For `Safety Owners` and `Safety Managers` this panel also indicates the status of the `Safety Items` that they "own".
+
+![image](/img/docs/safety/dashboard.png)
+
+## Operation
+
+All `Safety Areas` and `Safety Items` are initially marked as incomplete.
+
+-   The `Safety Owner` assigned to each will receive an email once a week to remind them of `Safety Areas` and `Safety Items` that are `Unapproved`, `Not OK` or `Overdue`.
+-   They will also be reminded if these are `Due for review` within the next four weeks.
+
+The main `Safety Audit` page, accessed from the `Dashboard` lists all the `Safety Areas` with their `Owners` and a progress indicator showing the status of the `Safety Items` in that `Safety Area`.
+At the top of the page there is a button to access a list of all `Safety Items`, another one to `Print` a report of the status of all `Areas and Items` and, for managers, access to the Admin/Setup pages.
+![image](/img/docs/safety/audit_top.png)
+
+`Safety Items` can be reviewed and updated either from here or from their parent `Safety Area` page.
+![image](/img/docs/safety/area_items.png)
+When marking a `Safety Item` as `OK` the `Review Date` will be updated to be one year on from the date of confirmation.
+
+-   If, however, the `Safety Item` is `Due for review` within the next 4 weeks the date is updated to be one year from the current review date.
+The intention of this is that reviews can take place in a timely way before they are due but the review date does not creep earlier and earlier each year.
+-   The review date can also be updated independently if it is necessary to change the annual review cycle or to check a `Safety Item` more often.
+
+The name of the `Safety Owner` of each `Safety Area` and `Safety Item` is displayed next to it as a "mailto" hyperlink to facilitate quick communication if any queries arise.
+
+In a coordinated group of schools (e.g. a MAT), some `Safety Items` can only be updated by the central `Safety Owner`.
+They still have locally set `Safety Owners` who will receive reminders about them so that they can be involved in the coordinated update of them.
