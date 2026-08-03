@@ -1,0 +1,118 @@
+---
+title: "Set Up the Risk Assessment Module"
+sidebarTitle: "Setup Guide"
+description: "Enable Risk Assessment, assign a manager and approvers, create risk areas, and guide your staff through writing and approving their first risk assessments."
+---
+
+This guide covers setting up the Risk Assessment module, from enabling it in Administration through to your first approved risk assessment being visible to all staff. Any member of staff can write a risk assessment, but assessments must be reviewed by an Approver before they are published — this guide takes you through every role in that workflow.
+
+<Note>
+  Initial setup must be carried out by a user with the **Administrator** role.
+</Note>
+
+## Setup Steps
+
+Complete these steps in order to prepare the module for your school.
+
+<Steps>
+  <Step title="Enable the Risk Assessment module">
+    Go to **Administration > Modules** and enable the **Risk Assessment** module. It will appear in the left-hand navigation once active.
+  </Step>
+  <Step title="Assign a Risk Assessment Manager">
+    Go to **Administration > Users** and assign the **Risk Assessment Manager** role to one or more members of staff. Managers can create and manage **Risk Areas**, configure module settings, and oversee the full list of risk assessments.
+  </Step>
+  <Step title="Assign at least one Risk Assessment Approver">
+    Go to **Administration > Users** and assign the **Risk Assessment Approver** role to at least one member of staff. Then, inside the Risk Assessment module, go to **Manage > Approvers** and confirm who holds the Approver role. Approvers review submitted assessments and either approve them or request changes before they are published.
+    <Info>
+      A risk assessment is not visible to general staff until an Approver has reviewed and approved it. Having at least one active Approver in place before staff start submitting assessments keeps the workflow moving.
+    </Info>
+  </Step>
+  <Step title="Create Risk Areas (recommended)">
+    Risk Assessment Managers can create **Risk Areas** to group assessments by theme — for example, *Science*, *Trips*, *Playgrounds*, or *PE*. This step is optional but makes the assessment list much easier to search and filter, especially as your library grows.
+
+    Go to **Risk Assessment > Manage > Risk Areas** and select **Add Area**. Give each area a clear, descriptive name.
+  </Step>
+</Steps>
+
+## Writing a Risk Assessment
+
+Any member of staff can create a risk assessment. Here is how.
+
+<Steps>
+  <Step title="Navigate to Risk Assessment">
+    Select **Risk Assessment** from the left-hand navigation menu. You will see the master list of all published risk assessments.
+  </Step>
+  <Step title="Start a new assessment">
+    Click the **+** button in the top-right corner of the list. A form opens for you to enter the basic details.
+  </Step>
+  <Step title="Complete the assessment form">
+    Fill in the following fields:
+
+    | Field | Notes |
+    |---|---|
+    | **Activity** | A clear, descriptive title for the risk assessment |
+    | **Risk Area** | Select from the categories created by your Risk Assessment Manager |
+    | **Location** | Optional — add detail about where the activity takes place |
+    | **Owner** | Defaults to you; can be set to another member of staff |
+    | **Approver** | Optional at this stage, but setting one now means they see it immediately in their pending list |
+    | **At Risk** | Select which groups of people are at risk — useful for filtering the list later |
+    | **Additional Information** | Free text for context, e.g. "Statutory Requirement" or references to external assessments |
+
+    Once the basic form is saved, open the assessment to add **Hazards**, **People at Risk**, **Control Measures**, and a **Severity Rating**.
+  </Step>
+  <Step title="Submit for approval">
+    When the assessment is complete, submit it for approval. It will appear in the Approver's **Pending Approval** list and will not be visible to general staff until it is approved.
+  </Step>
+</Steps>
+
+<Info>
+  The coloured bar on the left side of each entry in the risk assessment list indicates its overall **Risk Level**. A newly created assessment appears grey until at least one hazard has been assessed and a severity rating applied.
+</Info>
+
+## Approving a Risk Assessment
+
+Approvers are responsible for quality-checking submitted assessments before they are published to staff.
+
+<Steps>
+  <Step title="Open the Pending Approval list">
+    Navigate to **Risk Assessment > Pending Approval**. All assessments awaiting your review are listed here.
+  </Step>
+  <Step title="Review the assessment">
+    Open the assessment and read through the activity description, hazards, control measures, and severity rating. Check that the content is accurate, proportionate, and complete.
+  </Step>
+  <Step title="Approve or request changes">
+    - Select **Approve** if the assessment meets your standards. It will immediately become visible to all staff.
+    - Select **Request Changes** if the assessment needs revision. The owner is notified and can update and resubmit.
+  </Step>
+  <Step title="Assessment is published">
+    Once approved, the assessment appears in the main list for all staff. Its risk level is shown as a colour-coded bar, and it is searchable and filterable by Risk Area, owner, and other criteria.
+  </Step>
+</Steps>
+
+<Tip>
+  Approvers are automatically alerted to re-review any risk assessment that is updated by its owner **or** that has not been re-approved within the last year. This keeps your risk assessment library current without requiring manual tracking.
+</Tip>
+
+## Staff Read Confirmations
+
+After a risk assessment is approved, any member of staff can confirm that they have read it. This gives you an auditable record of who has acknowledged which assessments.
+
+- Staff navigate to the risk assessment and click **Confirm I have read this**.
+- If the assessment is subsequently **updated and re-approved**, all previous confirmations are **reset** and staff who had previously confirmed are notified that the assessment has changed and they should re-read it.
+
+<Warning>
+  All staff can see the complete list of risk assessments unless an individual assessment is marked as **Confidential**. Do not include personal information or identifiable details about individuals in a risk assessment unless you apply the confidentiality setting to that assessment.
+</Warning>
+
+## Actions and Due Dates
+
+Risk assessments can include one or more **Actions** — specific tasks that need to be completed to implement or maintain control measures.
+
+<CardGroup cols={2}>
+  <Card title="Assigning actions" icon="list-check">
+    When editing a risk assessment, add actions and assign each one to a named member of staff with a due date. Actions can be added by the owner or the Approver during the review process.
+  </Card>
+  <Card title="Reminders" icon="bell">
+    Staff with assigned actions receive automatic email reminders as their due date approaches and again if the action becomes overdue. No manual chasing is required.
+  </Card>
+</CardGroup>

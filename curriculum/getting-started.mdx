@@ -1,0 +1,103 @@
+---
+title: "Set Up and Publish Your School Curriculum"
+sidebarTitle: "Setup Guide"
+description: "Enable the Curriculum module, create subject structures, add vocabulary and SMSC coverage, and publish your curriculum via the JSON API for your website."
+icon: "graduation-cap"
+---
+
+This guide takes you through enabling the Curriculum module, building your curriculum structure, and publishing it to your school website. The Curriculum module gives subject leads a structured way to document their curriculum intent — including units of work, key vocabulary, and SMSC coverage — and makes that information available to your website via a JSON API so it can be displayed automatically.
+
+<Note>
+  Initial setup requires the **Administrator** role. Once the module is enabled and roles are assigned, subject leads and curriculum managers can begin building the curriculum structure independently.
+</Note>
+
+## Setup Steps
+
+<Steps>
+  <Step title="Enable the Curriculum module">
+    Go to **Administration > Modules** and enable the **Curriculum** module.
+  </Step>
+
+  <Step title="Assign a Curriculum Manager and Publisher">
+    Go to **Administration > Users** and assign:
+    - **Curriculum Manager** — responsible for the overall curriculum structure, year groups, and subjects. This is typically your curriculum lead or deputy headteacher.
+    - **Curriculum Publisher** — responsible for approving and publishing curriculum content to the website. At least one Publisher must be assigned before any content can go live.
+  </Step>
+
+  <Step title="Navigate to Curriculum">
+    Select **Curriculum** from the left-hand navigation menu to access the curriculum management area.
+  </Step>
+
+  <Step title="Build your curriculum structure">
+    Create the structure your curriculum will sit within:
+
+    <Steps>
+      <Step title="Add Year Groups">
+        Create the year groups relevant to your school — for example, Year 1 through Year 6 for a primary, or Year 7 through Year 13 for a secondary.
+      </Step>
+      <Step title="Add Subjects within each Year Group">
+        For each year group, add the subjects taught. Subjects can be shared across year groups or set up independently.
+      </Step>
+      <Step title="Add Units of Work within each Subject">
+        For each subject in each year group, add the Units of Work that make up the taught curriculum across the year.
+      </Step>
+    </Steps>
+  </Step>
+</Steps>
+
+## Adding Units of Work
+
+For each Unit of Work, subject leads complete the following fields:
+
+<CardGroup cols={2}>
+  <Card title="Title and Description" icon="pen-to-square">
+    A clear title for the unit and a summary of what pupils will learn and experience.
+  </Card>
+  <Card title="Assessment" icon="circle-check">
+    How pupils' learning in this unit will be assessed — the method, timing, and what is being evaluated.
+  </Card>
+  <Card title="SMSC Coverage" icon="heart">
+    Tag the relevant SMSC (Spiritual, Moral, Social, and Cultural) categories from the provided list and add detail about how this unit addresses each tagged dimension.
+  </Card>
+  <Card title="Key Vocabulary" icon="book-open">
+    Add the key vocabulary terms pupils need for this unit. For each term, provide a definition and one or more examples of the term in context.
+  </Card>
+</CardGroup>
+
+<Tip>
+  Key vocabulary terms can be **reused across multiple units** — create a term once and tag it wherever it is relevant across subjects and year groups. You can also add **alternative definitions** for older year groups where a more sophisticated explanation is appropriate.
+</Tip>
+
+## Draft and Publish Workflow
+
+The Curriculum module uses a controlled publishing workflow to ensure quality and accuracy before anything goes live on your school website.
+
+- **Subject leads** can create, draft, and edit units at any time. Drafts are visible within the system but are not published to the website.
+- Changes only go live when a **Curriculum Publisher** reviews and approves them.
+- This gives curriculum leaders control over what is displayed publicly, preventing incomplete or draft content from appearing on the website.
+
+<Info>
+  The draft and publish workflow means subject leads can work on their curriculum documentation throughout the year without the risk of partially-completed content appearing on the school website.
+</Info>
+
+## Publishing to Your Website via the JSON API
+
+Once content is approved and published, your curriculum becomes available through a **school-specific JSON API URL**. Your website developer calls this URL to receive structured JSON data and display it on your curriculum pages — no manual copying or exporting required.
+
+<Steps>
+  <Step title="Get your school's API URL">
+    Contact the Clever School Systems support team at **support@cleverschool.systems** to receive your school's unique JSON API URL and the accompanying API documentation.
+  </Step>
+
+  <Step title="Share the API URL with your web developer">
+    Pass the API URL and documentation to whoever manages your school website. They will integrate the API call into your curriculum pages so that published content appears automatically.
+  </Step>
+
+  <Step title="Keep the curriculum up to date">
+    Whenever subject leads update and publish units in Clever School Systems, the changes are reflected on your website automatically at the next API call — no further action needed from your web team.
+  </Step>
+</Steps>
+
+<Tip>
+  If your school uses a website platform with pre-built Clever School Systems integration, the API connection may already be configured. Contact **support@cleverschool.systems** to confirm whether an integration exists for your platform.
+</Tip>

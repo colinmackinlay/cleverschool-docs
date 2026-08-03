@@ -1,0 +1,95 @@
+---
+title: "Set Up the Compliance Audit Module"
+sidebarTitle: "Setup Guide"
+description: "Enable the Compliance Audit module, assign a manager, configure your compliance areas, and start recording evidence of your school's statutory compliance."
+---
+
+This guide walks Administrators and Compliance Managers through setting up the Compliance Audit module from scratch. By the end you will have the module enabled, at least one manager in place, and your team ready to start confirming compliance items and building an auditable evidence trail for governors and external reviewers.
+
+<Note>
+  Initial setup must be carried out by a user with the **Administrator** role.
+</Note>
+
+## Quick Start
+
+Follow these four steps to get the Compliance Audit module up and running as quickly as possible.
+
+<Steps>
+  <Step title="Enable the Compliance Audit module">
+    Go to **Administration > Modules** and enable the **Compliance Audit** module. The module will appear in the left navigation once it is active.
+  </Step>
+  <Step title="Assign a Compliance Manager">
+    Still in **Administration**, go to **Users** and assign the **Compliance Manager** role to yourself or another suitable member of staff. You can assign the role to more than one person.
+    <Tip>
+      Until at least one Compliance Manager is assigned, Administrators receive a weekly reminder that this step has not been completed. Assigning the role removes that alert.
+    </Tip>
+  </Step>
+  <Step title="Open the Compliance Audit">
+    Reload your page and select **Compliance Audit** from the left-hand navigation menu. The module loads with a pre-populated set of Compliance Areas and Compliance Items ready to explore.
+  </Step>
+  <Step title="Explore the default content">
+    Browse the pre-loaded **Compliance Areas** and **Compliance Items**. Try confirming and unconfirming a few items, and add a note to one of them. This gives you a feel for the day-to-day workflow before you begin configuring things for your school.
+  </Step>
+</Steps>
+
+## Further Setup
+
+Once the module is enabled, a **Compliance Manager** can tailor it to your school's needs. Access the management panel by selecting **Manage** from the dropdown menu in the top-right corner of the screen.
+
+### Adding custom Compliance Areas
+
+Compliance Areas group related items together and each area has a named owner. You can use the default areas, rename them, or create entirely new ones to reflect how your school organises its statutory obligations.
+
+- Navigate to **Manage > Compliance Areas** and select **Add Area**.
+- Give the area a clear name and assign an owner (the owner must hold the **Compliance Owner** role — see below).
+- Reorder areas by dragging them into the sequence that suits your audit workflow.
+
+### Adding custom Compliance Items
+
+The system ships with a default list of items covering common statutory requirements. You can extend this list with any requirements specific to your school.
+
+- Navigate to **Manage > Compliance Items** and select **Add Item**.
+- Assign the new item to an existing Compliance Area.
+- Disable or archive any default items that are not relevant to your school so they do not clutter the audit view.
+
+### Assigning Compliance Owners
+
+Compliance Owners are the staff members responsible for confirming individual areas and items. They receive weekly email reminders about anything that is unapproved, not OK, or overdue.
+
+1. Go to **Administration > Users** and assign the **Compliance Owner** role to each relevant member of staff.
+2. Return to **Manage** within Compliance Audit and assign each Compliance Area or Compliance Item to its owner.
+
+<Note>
+  The Compliance Manager can also assign owners directly from within the module — you do not need to return to Administration each time. The Administrator role is only required for the initial role assignment.
+</Note>
+
+### Setting review dates
+
+Each Compliance Item defaults to an annual review cycle. You can adjust this to match your school's own compliance calendar.
+
+- Open any Compliance Item and update its **Review Date**. You can set a date up to 18 months ahead.
+- When a Compliance Manager marks an item as **OK**, the review date automatically rolls forward by one year from the date of confirmation — or from the existing review date if the item is confirmed within four weeks of it being due. This prevents review dates from creeping earlier each year.
+- If an item needs to be reviewed more frequently than annually, simply set a shorter interval and the same rolling logic applies.
+
+<Tip>
+  Review dates are colour-coded throughout the audit: **red** for overdue, **amber** for due within the next four weeks, and **green** for items further ahead. This makes it easy to prioritise at a glance.
+</Tip>
+
+## Day-to-Day Use
+
+Once the module is configured, your team's regular workflow is straightforward.
+
+<CardGroup cols={2}>
+  <Card title="Compliance Owners" icon="circle-check">
+    Log in and review your assigned items. Confirm each item as complete, add supporting notes, and attach any relevant evidence. You will receive a weekly email listing anything that is unapproved, not OK, or overdue — including items due within the next four weeks.
+  </Card>
+  <Card title="Compliance Managers" icon="shield-check">
+    Monitor overall progress from the Compliance Audit dashboard. Use the top-of-page **Print** button to generate a full audit report showing the status of all areas and items — a useful document for governor meetings or external inspections.
+  </Card>
+</CardGroup>
+
+The name of the Compliance Owner for each area and item is displayed as a mailto link, making it easy to send a quick query without leaving the audit screen.
+
+<Tip>
+  For Multi-Academy Trusts and Local Authorities, some Compliance Areas can be managed centrally. Central owners can lock specific items so they are updated consistently across all schools in the group, reducing duplication of effort while keeping locally assigned owners informed through the usual reminder emails.
+</Tip>

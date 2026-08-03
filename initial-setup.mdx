@@ -1,0 +1,69 @@
+---
+title: "Configure Clever School Systems for Your School"
+sidebarTitle: "Initial Setup"
+description: "Complete your school's initial setup: enable modules, manage user roles and permissions, configure external authentication, and set up your team."
+---
+
+After registering your school, the Administrator needs to complete a few setup steps before the rest of your staff can start using the platform. This guide covers enabling modules, adding users, understanding the role model, and configuring external authentication — everything you need to hand the platform over to your team with confidence.
+
+## Enabling Modules
+
+Each module must be enabled individually before it becomes available to your staff. To do this, go to the **Administration** section and select **Modules** from the left-hand menu. You will see a list of all available modules. Toggle any module on to enable it — it will appear immediately in the left-hand navigation for all users who have been assigned a role within it.
+
+<Tip>
+  You can enable or disable modules at any time without losing any data. If you disable a module temporarily — for example, during a quiet period — all existing content is preserved and will be there when you re-enable it.
+</Tip>
+
+## Adding Users
+
+You can add staff to Clever School Systems in two ways:
+
+- **Manual invitation** — Enter a staff member's email address and send them an invitation. They will receive an email with a link to set up their account. This is the quickest option for small teams or individual additions.
+- **Bulk import** — Upload a spreadsheet of staff details to add multiple users at once. This is useful when setting up the platform for the first time.
+
+For schools that use a supported Management Information System (MIS), Clever School Systems integrates with **Wonde** to keep your staff list synchronised automatically. Once connected, new staff accounts can be created and existing ones updated directly from your MIS data, reducing manual administration.
+
+Whichever method you use, each user must be assigned at least one role before they can access any part of the platform.
+
+## User Roles and Permissions
+
+Clever School Systems uses a layered role model to keep access clear and appropriately controlled at every level of your school.
+
+- **Administrator** — Has full access to the platform, including the ability to enable and disable modules, manage all user accounts, and configure school-wide settings. This role should be held by the Headteacher or Business Manager. It is set up during registration.
+- **Module Manager** — Has management access to a specific module. Managers configure that module's content, monitor activity, and assign Owners to areas or items within it. The Administrator assigns this role.
+- **Module Owner** — Is responsible for specific areas or items within a module (for example, owning a particular risk assessment or a development planning priority). This role is assigned by the Module Manager.
+- **Staff / User** — Can read content and contribute to the modules they have access to, according to the permissions set by the Module Manager or Module Owner.
+
+The table below summarises who assigns each role.
+
+| Role | Scope | Who assigns it |
+|---|---|---|
+| Administrator | Whole school | Set during registration / External authentication |
+| Module Manager | Specific module | Administrator |
+| Module Owner | Areas / Items within a module | Module Manager |
+| Staff / User | Modules they are granted access to | Module Manager or Module Owner |
+
+<Warning>
+  Administrator access grants full control over the platform, including the ability to remove other users and disable modules. Limit this role to the members of staff who genuinely need it.
+</Warning>
+
+## External Authentication
+
+Clever School Systems supports login via external identity providers — including **Google** and **Microsoft** — so your staff can use single sign-on (SSO) with their existing school email credentials. This removes the need for a separate Clever School Systems password and makes it easier to enforce your school's existing security policies.
+
+To enable external authentication, go to **Administration** > **Authentication** and follow the on-screen instructions to connect your preferred provider. Once configured, staff can sign in by selecting the relevant provider on the login page. Their school email address is used to match them to their Clever School Systems account automatically.
+
+<Note>
+  External authentication must be configured by an Administrator. If you need help connecting your school's Google Workspace or Microsoft 365 tenant, contact [support@cleverschool.systems](mailto:support@cleverschool.systems).
+</Note>
+
+## Quick Links for Administrators
+
+<CardGroup cols={2}>
+  <Card title="Manage Modules" icon="puzzle-piece" href="/administration/modules">
+    Enable or disable modules and review which ones are currently active.
+  </Card>
+  <Card title="Manage Users & Roles" icon="users" href="/administration/users-roles">
+    Add staff, assign roles, and manage permissions across the platform.
+  </Card>
+</CardGroup>

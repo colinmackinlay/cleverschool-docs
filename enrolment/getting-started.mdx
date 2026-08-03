@@ -1,0 +1,115 @@
+---
+title: "Set Up Online Enrolment for Your New Intake"
+sidebarTitle: "Setup Guide"
+description: "Enable Enrolment, add your new intake pupils, invite parents to complete forms online, and export an ATF file for import into your school MIS."
+icon: "user-plus"
+---
+
+This guide walks through setting up the Enrolment module, inviting parents to complete their child's information online, and exporting the completed data to your Management Information System (MIS). By collecting information digitally and directly from parents, you reduce manual data entry and ensure your MIS is populated with accurate, up-to-date records from day one.
+
+<Note>
+  Initial setup requires the **Administrator** role. Once the module is enabled and an Enrolment Manager is assigned, the Manager takes over the process of adding students, sending invitations, and managing submissions.
+</Note>
+
+## Setup Steps
+
+<Steps>
+  <Step title="Enable the Enrolment module">
+    Go to **Administration > Modules** and enable the **Enrolment** module.
+  </Step>
+
+  <Step title="Assign an Enrolment Manager">
+    Go to **Administration > Users** and assign the **Enrolment Manager** role to the appropriate member of staff — typically your school administrator or admissions lead.
+  </Step>
+
+  <Step title="Navigate to Enrolment">
+    Select **Enrolment** from the left-hand navigation menu to access the enrolment management area.
+  </Step>
+</Steps>
+
+## Adding Students
+
+You can add students to Enrolment in two ways depending on your situation:
+
+<CardGroup cols={2}>
+  <Card title="Bulk Upload" icon="arrow-up-from-bracket">
+    **For new year group intake.** Upload a list of expected students including their names and parent or guardian email addresses. This is the fastest method when you have a full cohort to process at once.
+  </Card>
+  <Card title="Individual Add" icon="user-plus">
+    **For in-year admissions.** Add students one at a time as they are admitted throughout the year. This is ideal for ad hoc admissions outside the main intake window.
+  </Card>
+</CardGroup>
+
+## Inviting Parents
+
+Once students are added to the system, you can invite their parents and carers to complete the enrolment form online.
+
+<Steps>
+  <Step title="Send invitations">
+    Select the students you want to invite, then click **Send Invitations**. Each parent or carer receives an email with a personalised link to the enrolment form.
+  </Step>
+
+  <Step title="Parents register or log in">
+    Parents follow the link and either register using an email address and password, or sign in with an existing social media account. No special account is needed — the process is designed to be accessible to all parents.
+  </Step>
+
+  <Step title="Parents complete the enrolment form">
+    Parents fill in all required information for their child, including:
+    - **Personal details** — name, date of birth, address, home language
+    - **Medical information** — conditions, allergies, medications
+    - **Emergency contacts** — names and phone numbers
+    - **Consents** — permissions and any school-specific declarations
+  </Step>
+
+  <Step title="Parents submit and receive confirmation">
+    Once the parent submits the form, they receive an **automatic confirmation email** containing a copy of everything they provided. This gives them a record and reassurance that their information has been received.
+  </Step>
+</Steps>
+
+## Reviewing Submissions
+
+As parents complete their forms, their submissions appear in the **Enrolment** module for your review. You can monitor completion status across the whole cohort at a glance and identify which families have not yet responded.
+
+To chase incomplete submissions, select the relevant students and **resend invitations**. The email reminder directs parents straight back to their unfinished form.
+
+## Exporting to Your MIS
+
+Once all — or most — parents have submitted their forms, you are ready to export the data for import into your school MIS.
+
+<Steps>
+  <Step title="Go to Enrolment > Export">
+    Navigate to the **Export** section within the Enrolment module.
+  </Step>
+
+  <Step title="Download the ATF file">
+    Download the **ATF (Admissions Transfer File)**. This is a standardised file containing all the pupil admissions data collected through the enrolment forms.
+
+    <Info>
+      ATF is the DfE standard format for transferring pupil admissions data between systems. All mainstream UK school MIS providers support ATF import.
+    </Info>
+  </Step>
+
+  <Step title="Import the ATF into your MIS">
+    Follow your MIS provider's import instructions to load the ATF file. This process varies slightly between systems:
+
+    <CardGroup cols={3}>
+      <Card title="SIMS" icon="database">
+        Use the CTF/ATF import tool within SIMS Administration.
+      </Card>
+      <Card title="Bromcom" icon="database">
+        Use the Admissions import function in the Bromcom MIS.
+      </Card>
+      <Card title="Arbor" icon="database">
+        Use the Bulk Import tool within Arbor's admissions area.
+      </Card>
+    </CardGroup>
+  </Step>
+
+  <Step title="Print supplementary records">
+    Additional data such as **medical information** can also be printed per student as a separate record. These printed records are useful for first-aid folders, lunch registers, and other day-to-day operational needs that sit outside your MIS.
+  </Step>
+</Steps>
+
+<Tip>
+  You do not need to wait for every parent to submit before exporting. Export the ATF when most forms are complete and process any late submissions as in-year updates to your MIS directly.
+</Tip>

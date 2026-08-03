@@ -1,0 +1,82 @@
+---
+title: "Curriculum: Publish Your Curriculum Content via JSON API"
+sidebarTitle: "Curriculum"
+description: "The Curriculum module lets subject leads draft and publish structured curriculum content — including SMSC coverage and vocabulary — available via a school-specific JSON API for your website."
+---
+
+The Curriculum module helps schools organise their curriculum by year and subject, with a structured workflow for drafting, approving, and publishing content to the school website. Subject leads can update their areas without needing to touch the website directly, and a Publisher approval step ensures quality and consistency before anything goes live.
+
+## How It Works
+
+Curriculum content is organised hierarchically: by year group, then by subject, then by units of work. You can define as many units as you need and set the order in which they are taught.
+
+Each unit contains:
+
+- A **title** and **description** of the unit's content
+- A **brief description of the assessment approach** used
+- **SMSC tags** identifying which areas of spiritual, moral, social, and cultural development the unit covers, with detail notes explaining how
+- **Key vocabulary** with meanings, example sentences, and (optionally) alternative definitions for older year groups
+- **Website links** to supporting resources
+
+<Steps>
+  <Step title="Subject leads draft content">
+    Subject leads log in and create or update units of work for their subjects. Changes are saved as drafts and are not visible on the website until approved.
+  </Step>
+  <Step title="Publisher reviews and approves">
+    A designated Publisher reviews the draft content. Once approved, the content is marked as live and becomes available via the JSON API.
+  </Step>
+  <Step title="Website displays the content">
+    Your website calls the school-specific JSON API URL and displays the published curriculum content automatically.
+  </Step>
+</Steps>
+
+## Key Features
+
+<CardGroup cols={2}>
+  <Card title="SMSC Coverage Tagging" icon="tag">
+    Tag each unit with the SMSC elements it covers and add detail notes explaining how the unit addresses each area.
+  </Card>
+  <Card title="Key Vocabulary" icon="book-open">
+    Add vocabulary with meanings and examples for each unit. Words can be re-used across multiple units to avoid duplication.
+  </Card>
+  <Card title="Differentiated Definitions" icon="layer-group">
+    Provide alternative, more sophisticated definitions and examples for older year groups where appropriate.
+  </Card>
+  <Card title="Draft-and-Approve Workflow" icon="shield-check">
+    Subject leads draft changes; a Publisher must approve before anything goes live. You stay in control of published content.
+  </Card>
+  <Card title="Structured by Year and Subject" icon="table-cells">
+    Organise your whole curriculum in one place, with a clear hierarchy that's easy to navigate.
+  </Card>
+  <Card title="JSON API Output" icon="code">
+    Published content is available via a school-specific JSON API, ready for your website developer to display.
+  </Card>
+</CardGroup>
+
+## JSON API
+
+Once your curriculum content is published, it is available via a school-specific JSON API URL. Your website developer can call this URL to retrieve the latest published content in JSON format and display it on your curriculum pages — no manual copy-and-paste required.
+
+<Tip>
+  Contact [support@cleverschool.systems](mailto:support@cleverschool.systems) to get your school's unique API URL.
+</Tip>
+
+The API follows this structure:
+
+```
+GET https://cleverschool.systems/api/curriculum/{school-id}/year/{year}/subject/{subject}
+```
+
+A successful response returns JSON containing the units of work for that year and subject, including vocabulary items with meanings and examples, and SMSC coverage tags with detail notes.
+
+<Warning>
+  Displaying curriculum data from the JSON API requires your website developer to have knowledge of working with JSON format data. The API returns raw JSON — rendering it on the page is the responsibility of your web team.
+</Warning>
+
+## Getting Started
+
+<CardGroup cols={2}>
+  <Card title="Getting Started" icon="rocket" href="/curriculum/getting-started">
+    Learn how to set up your subjects, add units of work, and publish your first curriculum content.
+  </Card>
+</CardGroup>

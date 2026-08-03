@@ -1,36 +1,11 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
+  "projectType": "saas",
+  "projectName": "Clever School Systems",
+  "projectDescription": "A modular school management platform for UK schools covering compliance, safeguarding, development planning, staff appraisal, calendars, enrolment, self-evaluation, and more.",
   "theme": "almond",
-  "name": "Clever School Systems",
-  "colors": {
-    "primary": "#0092b8",
-    "light": "#005f78",
-    "dark": "#00d3f2"
-  },
-  "favicon": "/favicon.svg",
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:support@cleverschool.systems"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Login",
-      "href": "https://cleverschool.systems"
-    }
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/cleverschoolsys",
-      "linkedin": "https://linkedin.com/company/cleverschool-systems"
-    }
-  },
+  "primaryColor": "#0092b8",
+  "lightColor": "#005f78",
+  "darkColor": "#00d3f2",
   "navigation": {
     "tabs": [
       {
@@ -129,5 +104,34 @@
         ]
       }
     ]
-  }
+  },
+  "keyFeatures": [
+    "Risk Assessment management with approvals and staff read-confirmations",
+    "Health & Safety Audit with 280 checks across 35 categories",
+    "Safeguarding Audit aligned to Section 11 of the Children Act 2004",
+    "Compliance Audit tracking statutory requirements and website obligations",
+    "School Development Planning with themes, initiatives, actions, and progress tracking",
+    "Professional Development & Appraisal with objective setting, interim, and final reviews",
+    "Professional Standards self-reflection with evidence storage",
+    "Ofsted Self-Evaluation Form (SEF) with criteria-level evaluation",
+    "SIAMS, Catholic, and Orthodox Self-Evaluation frameworks",
+    "School Calendar with iCal publication and weekly staff digests",
+    "Online Enrolment with ATF file export for MIS import",
+    "Sixth Form Application management",
+    "Curriculum publication via JSON API for school websites",
+    "Room Checks for site health and safety compliance",
+    "AI Tools including image generation for staff demonstrations",
+    "Multi-school (MAT/LA) group management with centralised controls",
+    "Role-based permissions: Administrator, Manager, Owner roles per module"
+  ],
+  "publicApiSurface": [
+    "Curriculum JSON API — unique URLs per school for website integration",
+    "iCal feed URLs for Calendar module (staff, parent, governor views)",
+    "ATF file export from Enrolment module for MIS import",
+    "Staff Contact Form web widget via Website Utilities module",
+    "Word of the Week data feed for school website display",
+    "Register endpoint: https://cleverschool.systems/register",
+    "Login endpoint: https://cleverschool.systems",
+    "Support email: support@cleverschool.systems"
+  ]
 }
