@@ -1,6 +1,6 @@
 {
   "projectType": "saas",
-  "projectName": "Clever School Systems",
+  "projectName": "Clever School Australia",
   "projectDescription": "A modular school management platform for UK schools covering compliance, safeguarding, development planning, staff appraisal, calendars, enrolment, self-evaluation, and more.",
   "theme": "almond",
   "primaryColor": "#0092b8",
@@ -130,8 +130,8 @@
     "ATF file export from Enrolment module for MIS import",
     "Staff Contact Form web widget via Website Utilities module",
     "Word of the Week data feed for school website display",
-    "Register endpoint: https://cleverschool.systems/register",
-    "Login endpoint: https://cleverschool.systems",
-    "Support email: support@cleverschool.systems"
+    "Register endpoint: https://cleverschool.au/register",
+    "Login endpoint: https://cleverschool.au",
+    "Support email: support@cleverschool.au"
   ]
 }
