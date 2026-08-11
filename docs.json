@@ -36,6 +36,7 @@
             "group": "Introduction",
             "pages": [
               "introduction",
+              "try-it-out",
               "quickstart",
               "initial-setup",
               "exercises",
